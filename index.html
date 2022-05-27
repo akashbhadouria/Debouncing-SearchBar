@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+input {
+    width: 200px;
+}
+
+#movies {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-top: none;
+    overflow: scroll;
+}
+
+p{
+    margin: 10px 0;
+}
+
+</style>
+
+<body>
+    <!-- main is the function name which we want to pass -->
+    <input oninput="debounceFunction(main,1000)" type="text" id="query">
+    <div id="movies"></div>
+</body>
+</html>
+<script src="./app.js"></script>
