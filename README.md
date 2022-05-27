@@ -1,6 +1,9 @@
 # Debouncing-SearchBar
 Searching movies using OMDB API and this search functionality uses debouncing.
 
+## OMDB Api
+http://www.omdbapi.com/?apikey=[yourkey]&
+
 ## Deployed Link
 https://guileless-kitten-ea6093.netlify.app/
 
