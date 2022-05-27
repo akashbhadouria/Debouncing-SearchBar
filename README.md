@@ -1,7 +1,7 @@
 # Debouncing-SearchBar
 Searching movies using OMDB API and this search functionality uses debouncing.
 
-## OMDB Api
+## OMDB API
 http://www.omdbapi.com/?apikey=[yourkey]&
 
 ## Deployed Link
